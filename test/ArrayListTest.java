@@ -10,6 +10,7 @@ public class ArrayListTest {
         list.add(new Object());
         String a = (String)list.get(0);
     }
+
 }
 
 

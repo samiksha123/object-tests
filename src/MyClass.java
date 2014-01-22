@@ -55,9 +55,7 @@ class ComparePerson implements Comparable<ComparePerson> {
     public String toString() {
         return this.getName();
     }
-
 }
-
 public class MyClass {
     public List sortByAge(List people){
         Collections.sort(people, new Comparator<ComparePerson>() {
@@ -68,7 +66,6 @@ public class MyClass {
         });
         return people;
     }
-
     public List sortByNameLength(List people){
         Collections.sort(people, new Comparator<ComparePerson>() {
             @Override
@@ -78,7 +75,6 @@ public class MyClass {
         });
         return people;
     }
-
     public List sortByNameInReverse(List people){
         Collections.sort(people, new Comparator<ComparePerson>() {
             @Override
@@ -112,4 +108,3 @@ public class MyClass {
         return people;
     }
 }
-
